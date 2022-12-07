@@ -1,14 +1,12 @@
-import {AppRouter} from './AppRouter'
+import { AppRouter } from './AppRouter';
+import { PokemonProvider } from './context/PokemonProvider';
 
-import React from 'react'
-import { PokeonProvider } from './context/PokeonProvider'
-
-export const App = () => {
-  return (
-    
-    <PokeonProvider>
-      <AppRouter />
-    </PokeonProvider>
-  )
+function App() {
+	return (
+		<PokemonProvider>
+			<AppRouter />
+		</PokemonProvider>
+	);
 }
 
+export default App;

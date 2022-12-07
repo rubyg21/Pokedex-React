@@ -1,3 +1,3 @@
 import { createContext } from "react";
 
-export const PokemonContex = createContext()
+export const PokemonContext = createContext()
